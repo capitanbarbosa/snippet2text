@@ -1,7 +1,9 @@
 from PIL import ImageGrab, Image
 import PIL.Image
 import pytesseract
-from tkinter import Tk
+import clipboard
+
+
 #--------- coge el clipboard y lo guarda (luego de que tomamos un snap)-------
 img = ImageGrab.grabclipboard()
 print(img)
@@ -16,9 +18,6 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files (x86)\Tesseract-OCR\t
 bruh = pytesseract.image_to_string(PIL.Image.open(r'C:\Users\luisd\OneDrive\Documents\Coding\Wiz Labs\Snippet-to-text\bruh.png'))
 print(bruh)
 
-r = Tk()
-r.withdraw()
-r.clipboard_clear()
-r.clipboard_append(bruh)
-r.update() # now it stays on the clipboard after the window is closed
-r.destroy()
+#------------------ clipboard windows + V -------------------
+clipboard.copy(bruh)
+

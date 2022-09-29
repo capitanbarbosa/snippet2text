@@ -2,8 +2,6 @@ from PIL import ImageGrab, Image
 import PIL.Image
 import pytesseract
 import clipboard
-
-
 #--------- coge el clipboard y lo guarda (luego de que tomamos un snap)-------
 img = ImageGrab.grabclipboard()
 print(img)

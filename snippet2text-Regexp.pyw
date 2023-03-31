@@ -1,7 +1,15 @@
-from PIL import ImageGrab, Image
-import PIL.Image
-import pytesseract
 import clipboard
+import pytesseract
+import PIL.Image
+from PIL import ImageGrab, Image
+import re
+
+
+def remove_special_characters_and_spaces(bruh):
+    return re.sub(r'[^\w-]+', '', bruh)
+
+
+# dewd
 # --------- coge el clipboard y lo guarda (luego de que tomamos un snap)-------
 img = ImageGrab.grabclipboard()
 print(img)
@@ -15,7 +23,10 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 
 bruh = pytesseract.image_to_string(PIL.Image.open(
     'bruh.png'))
-print(bruh)
+print(remove_special_characters_and_spaces(bruh).replace("-", ""))
 
 # ------------------ clipboard windows + V -------------------
-clipboard.copy(bruh)
+clipboard.copy(remove_special_characters_and_spaces(bruh).replace("-", ""))
+
+
+# sample-213213-000-323*111

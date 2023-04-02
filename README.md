@@ -2,8 +2,6 @@
 
 Grabs the latest image from the clipboard (any snip from the screen) and transforms it to text. Finally, it places the text inside the clipboard ready to be pasted, in milliseconds.
 
-There is also a version with a Regexp added, which removes any special characters from the extracted string, and is useful for transferring data such as id's, codes, etc.
-
 A radial menu will be used to launch the script easily (from inside this repo: https://github.com/dumbeau/AutoHotPie), through a shortcut on the keyboard, to swiftly launch the script from the menu.
 
 - note\*
@@ -23,7 +21,7 @@ Let’s go:
 
 2. Once installed, we get our script. → https://github.com/capitanbarbosa/snippet2text
 
-   - There’s 2 versions I use:
+   - There’s 2 versions of Snippet2Text included:
      - with a Regexp that removes any special chars such as -./() (useful for bank inscriptions, form transcription…)
      - without a Regexp; it transforms the text image as-is. (useful for copying code from anywhere; youtube, etc.)
 

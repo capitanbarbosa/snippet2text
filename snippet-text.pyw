@@ -9,13 +9,13 @@ print(img)
 # print(isinstance(img, Image.Image))
 print(img.size)
 print(img.mode)
-img.save('bruh.png')
+img.save('image.png')
 # --------- pasamos la imagen por tesseract--------
 # if no tesseract exe on our PATH, include:
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract'
 
-bruh = pytesseract.image_to_string(PIL.Image.open(
-    'bruh.png'))
-print(bruh)
+image = pytesseract.image_to_string(PIL.Image.open(
+    'image.png'))
+print(image)
 # ------------------ clipboard windows + V -------------------
-clipboard.copy(bruh)
+clipboard.copy(image)

@@ -22,8 +22,8 @@ Tech Stack / Tools:
 2. Once installed, we get our script. → https://github.com/capitanbarbosa/snippet2text
 
    - There’s 2 versions of Snippet2Text included:
-     - with a Regexp that removes any special chars such as -./() (useful for bank inscriptions, form transcription…)
-     - without a Regexp; it transforms the text image as-is. (useful for copying code from anywhere; youtube, etc.)
+     - one with a Regexp that removes any special chars such as -./() (useful for bank inscriptions, form transcription…)
+     - one without a Regexp; it transforms the text image as-is. (useful for copying code from anywhere; youtube, etc.)
 
 3. Get AutoHotMenu pie menu → create a menu, set up keyboard shortcut.
 

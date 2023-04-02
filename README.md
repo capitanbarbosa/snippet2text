@@ -13,7 +13,7 @@ Tech Stack / Tools:
 - pyTesseract
 - Pie Menu Repo (to launch the script via UI shortcut)
 
-Let’s go:
+## Let’s go:
 
 1. Download and install Tesseract OCR from Mannheim University Library. → [https://digi.bib.uni-mannheim.de/tesseract/](https://digi.bib.uni-mannheim.de/tesseract/)
 

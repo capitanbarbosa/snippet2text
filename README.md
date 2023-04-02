@@ -29,4 +29,4 @@ Let’s go:
 
 4. Call the snippet2text script from the shortcut.
 
-Now we can grab text from tables, videos and any image without ever leaving our window.
+![snippet2text-demoVid](https://user-images.githubusercontent.com/65256527/229378550-78eaee33-f6b3-4c84-bb12-ec3925e995eb.gif)

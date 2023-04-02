@@ -11,7 +11,7 @@ Tech Stack / Tools:
 
 - Tesseract
 - pyTesseract
-- Pie Menu Repo (to launch the script via UI shortcut)
+- *optional - Pie Menu Repo (to launch the script via UI shortcut)
 
 ## Let’s go:
 

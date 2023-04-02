@@ -6,4 +6,4 @@ There is also a version with a Regexp added, which removes any special character
 
 I like to launch it from a radial menu (inside this repo: https://github.com/dumbeau/AutoHotPie), through a shortcut on the keyboard, to swiftly transform any image to text.
 
----> insert pie menu demo GIF here...
+![snippet2text-demoVid](https://user-images.githubusercontent.com/65256527/229378550-78eaee33-f6b3-4c84-bb12-ec3925e995eb.gif)

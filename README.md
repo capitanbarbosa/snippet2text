@@ -2,7 +2,7 @@
 
 Grabs the latest image from the clipboard (any snip from the screen) and transforms it to text. Finally, it places the text inside the clipboard ready to be pasted, in milliseconds.
 
-A radial menu will be used to launch the script easily (from inside this repo: https://github.com/dumbeau/AutoHotPie), through a shortcut on the keyboard, to swiftly launch the script from the menu.
+A radial menu will be used to launch the script easily (from inside this repo: https://github.com/dumbeau/AutoHotPie) to swiftly launch the script from the menu. Though this is not obligatory in order for it to work.
 
 - note\*
   We can also use tools such as Windows Power Toy’s “Text Extractor” in the same fashion. But, it is less accurate, has no regexp version, and there is a minimum window snap size (meaning we cannot convert small images containing a very short string.)

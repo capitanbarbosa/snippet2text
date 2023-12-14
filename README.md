@@ -11,7 +11,7 @@ Tech Stack / Tools:
 
 - Tesseract
 - pyTesseract
-- *optional - Pie Menu Repo (to launch the script via UI shortcut)
+- *optional - Pie Menu Repo (to launch the script via UI shortcut) → https://github.com/dumbeau/AutoHotPie/tree/v1.0.27
 
 ## Let’s go:
 

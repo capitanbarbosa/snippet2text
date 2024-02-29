@@ -19,6 +19,11 @@ Tech Stack / Tools:
 
    - The exact specific version we will use for this example → [tesseract-ocr-w64-setup-5.3.0.20221222.exe](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-5.3.0.20221222.exe)
 
+   - For Linux/Ubuntu, you can use:
+          sudo apt update
+          sudo apt install tesseract-ocr
+
+
 2. Once installed, we get our script. → https://github.com/capitanbarbosa/snippet2text
 
    - There’s 2 versions of Snippet2Text included:

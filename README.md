@@ -23,6 +23,11 @@ Tech Stack / Tools:
           sudo apt update
           sudo apt install tesseract-ocr
 
+  - For Mac, you can use:
+          brew install tesseract
+          pip install Pillow pytesseract pyperclip
+          brew install pngpaste
+
 
 2. Once installed, we get our script. → https://github.com/capitanbarbosa/snippet2text
 
